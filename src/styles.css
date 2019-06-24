@@ -1,1 +1,47 @@
 /* You can add global styles to this file, and also import other style files */
+.cp {
+  cursor: pointer;
+}
+
+.ng-star-inserted > a {
+  font-size: 16px !important;
+}
+.menu-container {
+  width: 280px !important;
+}
+.menu-container.hide-menu {
+  left: -280px !important;
+}
+.hamburger {
+  padding: 0 !important;
+}
+.hamburger-inner,
+.hamburger-inner::after,
+.hamburger-inner::before {
+  background-color: #fdfdfd !important;
+}
+.hamburger-inner,
+.hamburger-inner::after,
+.hamburger-inner::before {
+  width: 28px !important;
+  height: 3px !important;
+}
+.hamburger-inner::before {
+  top: 8px !important;
+}
+.hamburger-inner::after {
+  top: 17px !important;
+}
+.menu-container .cuppa-menu .show-menu {
+  top: 60px !important;
+}
+body {
+  position: relative;
+}
+.ng-star-inserted:hover {
+  background: #926dde !important;
+}
+
+.cuppa-menu ul > li > a .active {
+  background: #926dde !important;
+}
